@@ -1,12 +1,13 @@
 @import './utils/var';
+@import './utils/mixin';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
 @import './base/shared';
 @import './components/logo';
-@import './utils/placeholders';
 @import './layouts/header';
 @import './layouts/header-links';
 @import './layouts/features';
 @import './layouts/hero';
-@import './utils/visually-hidden';
 @import './layouts/examples';
 @import './layouts/nav';
 @import './layouts/footer';
