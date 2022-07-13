@@ -43,33 +43,3 @@
     @extend %ul;
 }
 
-utils _mixin @mixin transition($type: color) {
-    transition-property: $type;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-placeholders %ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-%a {
-    text-decoration: none;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-}
-
-
-%removeMargin {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-%centeredFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
