@@ -9,13 +9,13 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    @extend %removeMargin;
+    //@extend %removeMargin;
 }
 
 .example__list {
     display: flex;
     gap: 30px;
-    @extend %ul;
+    //@extend %ul;
 }
 
 .example__text {
@@ -27,8 +27,8 @@
     line-height: 1.14;
     text-transform: uppercase;
     color: $accent-text-color;
-    @extend %centeredFlex;
-    @extend %removeMargin;
+    //@extend %centeredFlex;
+    //@extend %removeMargin;
 }
 
 .example__thumb::before {
