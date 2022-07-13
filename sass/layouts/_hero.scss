@@ -24,8 +24,8 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../images/imgoverlay.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4));     
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url(../images/imgoverlay.jpg);
 }
 
 .hero__button {
@@ -42,26 +42,11 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
 
+
     &:hover,
     &:focus {
         color: $accent-text-color;
         background-color: $accent-color;
         cursor: pointer;
-    }
-}
-
-nav .site-nav {
-    display: flex;
-    padding-left: 0;
-
-    @extend %ul;
-}
-
-.site-nav__item {
-    margin-right: 50px;
-    position: relative;
-
-    &:last-child {
-        margin-right: 0;
     }
 }
