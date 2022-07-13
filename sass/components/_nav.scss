@@ -2,7 +2,7 @@
     display: flex;
     padding-left: 0;
 
-    @extend %ul;
+    //@extend %ul;
 }
 
 .site-nav__item {
@@ -25,7 +25,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    @include transition();
+    //@include transition();
     //transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
@@ -50,10 +50,10 @@
     }
 
     &--current {
-        @extend %a;
+        //@extend %a;
     }
 
-    @extend %a;
+    //@extend %a;
 
 
 }
