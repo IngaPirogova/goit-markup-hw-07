@@ -50,3 +50,19 @@
         cursor: pointer;
     }
 }
+
+nav .site-nav {
+    display: flex;
+    padding-left: 0;
+
+    @extend %ul;
+}
+
+.site-nav__item {
+    margin-right: 50px;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
