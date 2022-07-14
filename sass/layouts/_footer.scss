@@ -26,6 +26,8 @@
     &:focus {
         color: $accent-color;
     }
+
+    @extend %a;
 }
 
 .footer-contacts__adress {
