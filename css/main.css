@@ -13,13 +13,13 @@
   overflow: hidden;
 }
 
-.team__list, .clients__list, .footer-contacts__list, .site-nav, .example__list, .header-links, .products-section__list, .soclinks-list, .filter {
+.footer-contacts__list, .team__list, .clients__list, .site-nav, .example__list, .header-links, .products-section__list, .soclinks-list, .filter {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.footer-contacts__list, .site-nav__link, .site-nav__link--current, .header-links__link, .products-section__link, .logo {
+.footer-contacts__adress, .footer-contacts__link, .footer-contacts__list, .site-nav__link, .site-nav__link--current, .header-links__link, .products-section__link, .logo {
   text-decoration: none;
   font-style: normal;
   margin: 0;
@@ -88,6 +88,7 @@ body {
 
 .footer__logo {
   color: #ffffff;
+  padding-bottom: 0;
 }
 
 .logo__accent {
@@ -703,8 +704,8 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/imgoverlay.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imgoverlay.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/gradientp.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/gradientp.png);
 }
 
 .hero__button {
@@ -816,66 +817,6 @@ body {
   background-color: #2196F3;
   border-radius: 2px;
 }
-/*Футер*/
-.footer {
-  background-color: #2F303A;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.footer__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer-contacts__list {
-  display: block;
-  padding-left: 0;
-  margin-top: 20px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-contacts__link {
-  display: block;
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.71;
-  margin-top: 9px;
-}
-.footer-contacts__link:hover, .footer-contacts__link:focus {
-  color: #2196F3;
-}
-
-.footer-contacts__adress {
-  color: #ffffff;
-  line-height: 1.71;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-contacts__adress:hover {
-  color: #2196F3;
-}
-
-.join {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 70px;
-  margin-right: 93px;
-}
-
-.join__title {
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
 /*Постоянные клиенты*/
 .clients__title {
   margin-bottom: 50px;
@@ -967,4 +908,63 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+}
+
+.footer {
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer-contacts__list {
+  display: block;
+  padding-left: 0;
+  margin-top: 20px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contacts__link {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  margin-top: 9px;
+}
+.footer-contacts__link:hover, .footer-contacts__link:focus {
+  color: #2196F3;
+}
+
+.footer-contacts__adress {
+  color: #ffffff;
+  line-height: 1.71;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-contacts__adress:hover {
+  color: #2196F3;
+}
+
+.join {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 70px;
+  margin-right: 93px;
+}
+
+.join__title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
