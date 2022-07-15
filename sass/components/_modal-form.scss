@@ -191,12 +191,11 @@
     padding-left: 42px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
 
 .modal-form__icon {
     position: absolute;
-    top: 15px;
+    top: 50%;
     left: 12px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
